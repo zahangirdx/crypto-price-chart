@@ -26,9 +26,9 @@ function CoinPage() {
       <div
         className="coinPage-Container"
         style={{
-          backgroundImage: `url(${BackgroundImg})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+          // backgroundImage: `url(${BackgroundImg})`,
+          // backgroundRepeat: "no-repeat",
+          // backgroundSize: "cover",
         }}
       >
         <div className="coinPage-Info">

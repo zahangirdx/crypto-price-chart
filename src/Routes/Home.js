@@ -47,10 +47,10 @@ function Home() {
   return (
     <div className="App">
       <div className="headerContainer">
-        <h1>Welcome to the CryptoChecker</h1>
+        <h1>Crypto Checker</h1>
         <div className="buttonContainer">
           <input
-            placeholder="Search for a Coin"
+            placeholder="Search..."
             type="text"
             onChange={handleSearch}
           />
@@ -72,6 +72,9 @@ function Home() {
             />
           );
         })}
+      </div>
+      <div className="dx">
+        <h1>copyright  @zahangir_dx</h1>
       </div>
     </div>
   );
